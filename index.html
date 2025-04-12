@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="x_icon" href="8666784_box_package_delivery_icon-export.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lashop</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-image: url(m.gif);
+        }
+
+        #loadingScreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            font-size: 24px;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loadingScreen">Loading...</div>
+
+    <div class="navigation-a">
+        <a href="#" class="nav1">service</a>
+        <a href="#" class="nav2">help</a>
+        <a href="#" class="nav3">support</a>
+        <a href="report.html" class="nav4">report</a>
+    </div>
+
+    <br><br>
+
+    <marquee>
+        <h1 class="maintt">store shop</h1>
+    </marquee>
+    <h3>page pc:</h3>
+    <div class="shop1">
+        <p>gaming pc win 7</p>
+        <p>PH.14.040</p>
+        <button class="addtocart1">add to cart</button>
+        <button class="cancelbtn1">cancel deliver</button>
+        <p class="notyes1">not delivered</p>
+    </div>
+    <div class="shop2">
+        <p>gaming computer rgb lights</p>
+        <p>PH.100.000</p>
+        <button class="addtocart2">add to cart</button>
+        <button class="cancelbtn2">cancel deliver</button>
+        <p class="notyes2">not delivered</p>
+    </div>
+    <div class="shop3">
+        <p>gaming and home working in win 10</p>
+        <p>PH.50.100</p>
+        <button class="addtocart3">add to cart</button>
+        <button class="cancelbtn3">cancel deliver</button>
+        <p class="notyes3">not delivered</p>
+    </div>
+    <h3>page tv:</h3>
+    <div class="shop12">
+        <p>LG smart tv</p>
+        <p>PH.30.700</p>
+        <button class="addtocart12">add to cart</button>
+        <button class="cancelbtn12">cancel deliver</button>
+        <p class="notyes12">not delivered</p>
+    </div>
+    <div class="shop13">
+        <p>android smart tv</p>
+        <p>PH.200.700</p>
+        <button class="addtocart13">add to cart</button>
+        <button class="cancelbtn13">cancel deliver</button>
+        <p class="notyes13">not delivered</p>
+    </div>
+    <a>ads</a>
+    <br>
+    <a href="https://gamebanana.com/mods/537572"><img src="https://gamebanana.com/mods/embeddables/537572?type=large" /></a>
+    <br>
+    <a href="https://gamebanana.com/tools/18083"><img src="https://gamebanana.com/tools/embeddables/18083?type=large" /></a>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    
+    <script>
+        // Show loading screen
+        document.getElementById('loadingScreen').style.display = 'flex';
+
+        // Hide loading screen when the page has fully loaded
+        window.onload = function () {
+            document.getElementById('loadingScreen').style.display = 'none';
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="styleHelp.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body{
+        background-color: rgb(27, 18, 18);
+    }
+
+    
+.button {
+    position: sticky;
+    background-color: red;
+    border-radius: 50px;
+    border-color: black;
+    border-style: double;
+    border-width: 20px;
+    padding: 10px;
+    z-index: 1000;
+    top: 0;
+    font-size: 30px;
+    transition: padding 0.5s ease, background-color 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease-in-out;
+}
+
+.button:hover {
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    opacity: 0.1;
+}
+
+</style>
+</head>
+<div id="button" class="button">
+    <a href="report.html">Go Back</a>
+</div>
+<div class="all" onclick="enlargeText(this)">
+<a>ERRCODE10:is a Rare and its stored in a file calld server.js!</a>
+</div>
+<div class="all2" onclick="enlargeText(this)">
+    <a>#2 server.js Is run to node.js!</a>
+    </div>
+    <div class="all3" onclick="enlargeText(this)">
+        <a>did you kown? you can tap the text? to big it? try it now!</a>
+        </div>
+<body>
+
+<script>
+
+function enlargeText(element) {
+    element.classList.toggle('enlarged'); // Toggle the enlarged class
+}
+</script>
+  
+</body>
+
+</html>

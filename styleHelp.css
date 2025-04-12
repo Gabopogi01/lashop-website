@@ -1,0 +1,32 @@
+.all {
+    transition: font-size 0.3s ease;
+    color: #fff;
+    font-size: 36px; /* Change this value */
+}
+
+.enlarged {
+    font-size: 70px; /* Enlarged font size on class addition */
+    transform-origin: center; /* Set the origin for transformation */
+}
+
+.all2{
+    transition: font-size 0.3s ease;
+    color: #fff;
+    font-size: 36px; /* Change this value */
+}
+
+.enlarged {
+    font-size: 70px; /* Enlarged font size on class addition */
+    transform-origin: center; /* Set the origin for transformation */
+}
+
+.all3{
+    transition: font-size 0.3s ease;
+    color: #fff;
+    font-size: 36px; /* Change this value */
+}
+
+.enlarged {
+    font-size: 70px; /* Enlarged font size on class addition */
+    transform-origin: center; /* Set the origin for transformation */
+}
